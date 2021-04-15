@@ -11,7 +11,7 @@
 
 
      color: rgb(255, 62, 62);
-     background-color: rgb(0, 19, 26);
+     background-color: rgb(2, 27, 36);
      margin-left: 35%;
      margin-right: 35%;
      margin-top: 4%;
@@ -49,17 +49,7 @@
      border-radius: 0.7%;
      
 }
-.list_1
-{
-    padding-top: 3%;
-    padding-right: 0%;
-    padding-left: 6%;
 
-}
-.list_1 img
-{
-    margin-right: 5%;
-}
 
 .top_bar
 {
@@ -101,6 +91,64 @@
     margin-bottom: -5%;
     color: rgb(0, 225, 255);
 }
+
+
+.list_1
+{
+   
+    padding-top: 3%;
+    padding-right: 0%;
+    padding-left: 2%;
+
+}
+
+.list_1 img
+{
+    
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 5%;
+    vertical-align: top;    
+
+}
+
+.i1
+{
+    width: 20%; 
+    
+    margin-top: 3%;
+}
+.i2
+{
+    width: 40%;
+    
+}
+
+.i3
+{
+    width: 30%;
+}
+
+.i4
+{
+    width: 20%;
+    margin-top: -5%;
+}
+
+.i5
+{
+    width: 40%;
+    margin-top: -5%;
+  
+}
+
+.i6
+{
+    width: 30%;
+    margin-top: 2%;
+}
+
 
 .bar_list a:hover {color: rgb(163, 248, 237);}
 .bar_list b:hover {color: rgb(163, 248, 237);}
