@@ -1,0 +1,416 @@
+body{
+  background-color: rgb(50, 116, 202);
+  background-image: url("back2.jpg");
+  background-position-x: center;
+  background-size: 100%;
+
+}
+/*my war header*/
+header
+{
+  text-align: center;
+  margin-top: 3%;
+
+  font-size: 300%;
+  font-family: 'New Tegomin', serif;
+  font-weight: bold;
+  color: rgb(228, 61, 61);
+}
+
+
+ul{margin-left: -1.5%;}
+
+#s1_poster
+{
+  width: 24%;
+  height: 67%;
+  background-image: url("posters/s1.png");
+  background-color: transparent;
+  background-position-x: 80%;
+  background-size: 102%;
+  border-radius: 1%;
+  background-position-y: 0%;
+
+  margin-left: 0%;
+  
+
+  position: absolute;
+  outline: transparent;
+  border-color: transparent;
+
+}
+
+#s2_poster
+{
+  width: 24%;
+  height: 67%;
+  background-image: url("posters/s2.png");
+  background-color: transparent;
+  background-position-x: 80%;
+  background-size: 102%;
+  border-radius: 1%;
+  background-position-y: 0%;
+  
+
+  outline: transparent;
+  border-color: transparent;
+
+
+
+  position: absolute;
+  left: 25.5%;
+  top: 14.5%;
+
+}
+
+
+#s3_poster
+{
+  width: 24%;
+  height: 67%;
+  background-image: url("posters/s3.png");
+  background-position-x: 80%;
+  background-size: 102%;
+  border-radius: 1%;
+  background-position-y: 0%;
+  background-color: transparent;
+  
+
+  outline: transparent;
+  border-color: transparent;
+
+
+
+  position: absolute;
+  left:  50.1%;
+  top: 14.5%;
+
+}
+
+
+
+#s4_poster
+{
+  width: 24%;
+  height: 67%;
+  background-image: url("posters/s4.png");
+  background-position-x: 80%;
+  background-size: 102%;
+  border-radius: 1%;
+  background-position-y: 0%;
+  background-color: transparent;
+  
+
+  outline: transparent;
+  border-color: transparent;
+
+
+
+  position: absolute;
+  left:  74.8%;
+  top: 14.5%;
+
+}
+
+
+
+.links:hover{cursor: pointer;}
+
+
+
+
+
+#op1
+{
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  left: 2.8%;
+  top: 40%;
+  font-size: 200%;
+  background-color: transparent;
+  border-color: transparent;
+  outline-color: transparent;
+  font-family: 'New Tegomin', serif;
+  font-weight: bold;
+  font-size: 250%;
+  font-variant: small-caps;
+  text-decoration: underline;
+  color: transparent;
+  outline: none;
+  
+}
+
+
+#op1_2
+{
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  left: 2.8%;
+  top: 40%;
+  font-size: 200%;
+  background-color: transparent;
+  border-color: transparent;
+  outline-color: transparent;
+  font-family: 'New Tegomin', serif;
+  font-weight: bold;
+  font-size: 250%;
+  font-variant: small-caps;
+  text-decoration: underline;
+  color: transparent;
+  outline: none;
+}
+
+
+#op2
+{
+  background-color: thistle;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  left: 33%;
+  top: 40%;
+  font-size: 200%;
+  background-color: transparent;
+  border-color: transparent;
+  outline-color: transparent;
+  font-family: 'New Tegomin', serif;
+  font-weight: bold;
+  font-size: 250%;
+  font-variant: small-caps;
+  text-decoration: underline;
+  color: transparent;
+  outline: none;
+}
+
+
+
+#op3_1
+{
+  background-color: thistle;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  left: 57.5%;
+  top: 40%;
+  font-size: 200%;
+  background-color: transparent;
+  border-color: transparent;
+  outline-color: transparent;
+  font-family: 'New Tegomin', serif;
+  font-weight: bold;
+  font-size: 250%;
+  font-variant: small-caps;
+  text-decoration: underline;
+  color: transparent;
+  outline: none;
+}
+
+#op3_2
+{
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  left: 52.5%;
+  top: 40%;
+  font-size: 200%;
+  background-color: transparent;
+  border-color: transparent;
+  outline-color: transparent;
+  font-family: 'New Tegomin', serif;
+  font-weight: bold;
+  font-size: 250%;
+  font-variant: small-caps;
+  text-decoration: underline;
+  color: transparent;
+  outline: none;
+}
+
+
+#op4
+{
+  background-color: thistle;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  left: 83%;
+  top: 40%;
+  font-size: 200%;
+  background-color: transparent;
+  border-color: transparent;
+  outline-color: transparent;
+  font-family: 'New Tegomin', serif;
+  font-weight: bold;
+  font-size: 250%;
+  font-variant: small-caps;
+  text-decoration: underline;
+  color: transparent;
+  outline: none;
+}
+
+
+
+
+.back1
+{
+  background-color: transparent;
+ 
+}
+
+.back2
+{
+  background-color: transparent;
+ 
+}
+
+.back3
+{
+  background-color: transparent;
+ 
+}
+
+.back4
+{
+  background-color: transparent;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+/*on hover*/
+
+
+
+  /*first poster hover*/
+.back1:hover .posters 
+{
+  animation-name: raise;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+
+
+}
+
+
+.back1:hover #op1
+{ 
+  animation-name: raise2;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+.back1:hover #op1_2
+{ 
+  animation-name: raise3;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+  /*second poster hover*/
+.back2:hover .posters
+{
+
+  animation-name: raise;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+
+}
+
+.back2:hover #op2
+{ 
+  animation-name: raise2_1;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+  /*season 3 poster hover*/
+
+  .back3:hover .posters
+{
+
+  animation-name: raise;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+
+}
+
+
+
+.back3:hover #op3_1
+{ 
+  animation-name: raise2;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+.back3:hover #op3_2
+{ 
+  animation-name: raise3;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+  /*season 4 hover*/
+  .back4:hover .posters
+{
+
+  animation-name: raise;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+
+}
+
+.back4:hover #op4
+{ 
+  animation-name: raise2_1;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+/*animations*/
+@keyframes raise  
+{
+    form{ background-position-y: 0%; }
+    to{ background-position-y: 99%; }
+}
+@keyframes raise2
+{
+    form{ top: 100%; }
+    to{ top: 30%;}
+
+    form{ color: transparent; }
+    to{ color: #ff4b4b;}
+}
+
+@keyframes raise3
+{
+    form{ top: 120%; }
+    to{ top: 50%;}
+
+    form{ color: transparent; }
+    to{ color: #ff4b4b;}
+}
+
+@keyframes raise2_1
+{
+  form{ top: 100%; }
+  to{ top: 42%;}
+
+  form{ color: transparent; }
+  to{ color: #ff4b4b;}
+}
+
