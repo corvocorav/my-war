@@ -1,0 +1,35 @@
+p {
+    display: inline;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+body
+{
+    background-image: url("background3.jpg");
+    background-size: 100%;
+    text-align: center;
+    margin-top: 18%;
+    color: rgb(57, 182, 255);    
+    font-family: 'New Tegomin', serif;
+    font-weight: bold;
+
+    text-shadow: 20px 20px 20px rgb(0, 0, 0);
+    font-variant: small-caps;
+
+    
+}
+p
+{
+    font-size: 900%;
+}
+
+head2
+{
+    position: absolute;
+    font-size: 400%;
+    top: 30%;
+    left: 15%;
+    color: rgb(255, 73, 73);
+}
+
