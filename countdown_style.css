@@ -9,13 +9,13 @@ body
     background-image: url("background3.jpg");
     background-size: 100%;
     text-align: center;
-    margin-top: 18%;
     color: rgb(57, 182, 255);    
     font-family: 'New Tegomin', serif;
     font-weight: bold;
 
     text-shadow: 20px 20px 20px rgb(0, 0, 0);
     font-variant: small-caps;
+    margin: 0;
 
     
 }
